@@ -7,7 +7,7 @@ public class Task1 {
 		
 	    //List<LoanAccount> result = null;
 		
-		//Fix: Initialize to avoid    NullPointerException
+		//Fix: Initialized the List to avoid NullPointerException
 	    List<LoanAccount> result = new ArrayList<>(); 
 	 
 	    for (LoanAccount account : accounts) {
